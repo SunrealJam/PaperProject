@@ -1,5 +1,5 @@
 # U.S.A.G.I. Gamejam - PaperProject
-A unity game created for the U.S.A.G.I. Gamejam.
+A game made using Unity created for the U.S.A.G.I. Gamejam.
 
 https://user-images.githubusercontent.com/96959660/147885797-ea140242-6263-4551-b10b-a218c21ce7f9.mp4
 
