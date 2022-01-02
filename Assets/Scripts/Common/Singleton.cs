@@ -36,6 +36,8 @@ public class Singleton : MonoBehaviour
 
         //Todo: Instantiate the player.
 
+        GameObject.Instantiate(playerPrefab, new Vector3(0f, 0f, 0f), Quaternion.identity);
+
         yield break;
     }
 }

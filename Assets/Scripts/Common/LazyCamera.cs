@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class LazyCamera : MonoBehaviour
 {
-    public Transform lockOn;
+    private Transform lockOn;
 
     private void LateUpdate()
     {
@@ -15,7 +15,7 @@ public class LazyCamera : MonoBehaviour
 
         if (lockOn)
         {
-            transform.position = new Vector3(lockOn.position.x, lockOn.position.y + 2.6f, lockOn.position.z - 8f);
+            transform.position = new Vector3(lockOn.position.x, lockOn.position.y + 1.8f, lockOn.position.z - 5f);
         }
     }
 }
